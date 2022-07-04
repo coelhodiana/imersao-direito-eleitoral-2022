@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,700&display=swap");
+
+:root {
+  --primary: #134b8d;
+  --gold: #ceaf72;
+  --black: #031e2f; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+}
+
+body {
+  background-color: antiquewhite;
+  font-family: Newsreader;
+  color: var(--black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.cta-button {
+    background-color: var(--gold);
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+
+.nav-infos {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner {
+  background-color: var(--black);
+  color: white;
+  position: relative;
+  overflow: hidden;
+
+  &__content {
+    text-align: center;
+    padding: 6rem 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 6rem;
+    z-index: 100;
+
+    img {
+        width: 50%;
+    }
+  }
+
+  &__image-wrapper {
+      z-index: 99;
+      position: relative;
+  }
+
+  &__image {
+    position: absolute;
+    bottom: 0;
+    right: -10rem;
+    width: auto;
+    height: 120%;
+  }
+
+  &__gradient {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 97;
+  }
+  
+  &__element {
+    position: absolute;
+    z-index: 98;
+    top: 5rem;
+    right: 0;
+  }
+}
