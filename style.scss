@@ -224,9 +224,17 @@ section {
     border-radius: 70px 0 0 0;
   }
 
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
   &__tipo {
     font-size: 1.2rem;
     font-weight: 700;
+    padding-bottom: 2rem;
   }
 
   &__tipo::after {
