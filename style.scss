@@ -270,6 +270,21 @@ section {
   }
 }
 
+.local {
+  position: relative;
+  .element-local {
+    position: absolute;
+    bottom: -170px;
+    right: 1300px;
+    width: 100%;
+    height: auto;
+  }
+
+  &__titulo {
+    color: var(--gold);
+  }
+}
+
 @media (max-width: 574px) {
   .cta-button,
   .cta-button--azul {
