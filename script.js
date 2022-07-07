@@ -18,7 +18,7 @@ function mostrarFormInscricaoLote() {
 function mostrarLinkPagamento() {
     if(email.value.length >= 5) {
         formInscricaoLote.style.display = 'none';
-        linkPagamentoLote.style.display = 'flex'
+        linkPagamentoLote.style.display = 'block'
     }
 
 }
