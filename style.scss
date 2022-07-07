@@ -272,11 +272,13 @@ section {
 
 .local {
   position: relative;
+  overflow: hidden;
+
   .element-local {
     position: absolute;
-    bottom: -170px;
-    right: 1300px;
-    width: 100%;
+    bottom: -100px;
+    right: 2380px;
+    width: 30%;
     height: auto;
   }
 
