@@ -35,6 +35,10 @@ section {
   padding: 4rem 0;
 }
 
+#mc_embed_signup {
+  width: 100%;
+}
+
 .whatsapp {
   position: fixed;
   bottom: 0;
@@ -83,6 +87,7 @@ section {
   font-size: 1.2rem;
   font-weight: 700;
   color: var(--white);
+  cursor: pointer;
 }
 
 .cta-button--azul:hover {
@@ -238,6 +243,12 @@ section {
 }
 .valores__valor-cheio p:last-child {
   font-weight: 700;
+}
+.valores__pagamento {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
 }
 
 .local {
