@@ -3,8 +3,10 @@
 :root {
   --primary: #134b8d;
   --gold: #ceaf72;
+  --light-blue: #134c8d25;
   --black: #031e2f;
   --white: #ffffff;
+  --light-grey: #dadada;
 }
 
 * {
@@ -155,6 +157,28 @@ section {
     z-index: 98;
     bottom: 0;
     right: 0;
+  }
+}
+
+.conteudo{
+  background-color: var(--light-blue);
+  &__titulo {
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+  }
+
+  &__topico {
+    border-bottom: .2px solid var(--black);
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--black);
+  }
+
+  &__conteudo-texto {
+    font-weight: 400;
+    color: var(--black);
+    font-size: .9rem;
   }
 }
 

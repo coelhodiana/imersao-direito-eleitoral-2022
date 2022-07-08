@@ -2,8 +2,10 @@
 :root {
   --primary: #134b8d;
   --gold: #ceaf72;
+  --light-blue: #134c8d25;
   --black: #031e2f;
   --white: #ffffff;
+  --light-grey: #dadada;
 }
 
 * {
@@ -147,6 +149,26 @@ section {
   z-index: 98;
   bottom: 0;
   right: 0;
+}
+
+.conteudo {
+  background-color: var(--light-blue);
+}
+.conteudo__titulo {
+  margin-bottom: 3rem;
+  font-size: 2.5rem;
+}
+.conteudo__topico {
+  border-bottom: 0.2px solid var(--black);
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--black);
+}
+.conteudo__conteudo-texto {
+  font-weight: 400;
+  color: var(--black);
+  font-size: 0.9rem;
 }
 
 .sobre {
