@@ -160,7 +160,7 @@ section {
   }
 }
 
-.conteudo{
+.conteudo {
   background-color: var(--light-blue);
   &__titulo {
     margin-bottom: 3rem;
@@ -168,7 +168,7 @@ section {
   }
 
   &__topico {
-    border-bottom: .2px solid var(--black);
+    border-bottom: 0.2px solid var(--black);
     margin: 1rem 0;
     font-size: 1.2rem;
     font-weight: 700;
@@ -178,7 +178,7 @@ section {
   &__conteudo-texto {
     font-weight: 400;
     color: var(--black);
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -235,26 +235,24 @@ section {
 }
 
 .valores {
+  
   &__titulo {
     text-align: center;
     margin-bottom: 2rem;
   }
 
   &__left {
-    padding: 4rem 6rem;
+    padding: 4rem;
     color: var(--white);
     background-color: var(--primary);
-    border-radius: 0 70px 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    border-radius: 0 70px 0 70px;
   }
 
   &__right {
-    padding: 4rem 6rem;
+    padding: 4rem;
     color: var(--white);
     background-color: var(--black);
-    border-radius: 70px 0 0 0;
+    border-radius: 70px 0 70px 0;
   }
 
   &__wrapper {
