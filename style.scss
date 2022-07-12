@@ -213,6 +213,35 @@ section {
   }
 }
 
+.convidados {
+
+  &__nome::after {
+    height: 3px;
+    display: block;
+    width: 200px;
+    background: var(--gold);
+    border-right: 1px white;
+    content: "";
+    margin-top: .3rem;
+  }
+
+  &__mais-info {
+    cursor: pointer;
+
+    p, i {
+      margin: 0;
+    }
+
+    i {
+      color: var(--gold);
+    }
+  }
+
+  &__mais-info:hover{
+    color: var(--gold);
+  }
+}
+
 .para-quem {
   display: flex;
   flex-direction: column;
@@ -235,7 +264,6 @@ section {
 }
 
 .valores {
-  
   &__titulo {
     text-align: center;
     margin-bottom: 2rem;

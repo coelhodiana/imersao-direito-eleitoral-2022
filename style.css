@@ -197,6 +197,28 @@ section {
   color: #eaca8b;
 }
 
+.convidados__nome::after {
+  height: 3px;
+  display: block;
+  width: 200px;
+  background: var(--gold);
+  border-right: 1px white;
+  content: "";
+  margin-top: 0.3rem;
+}
+.convidados__mais-info {
+  cursor: pointer;
+}
+.convidados__mais-info p, .convidados__mais-info i {
+  margin: 0;
+}
+.convidados__mais-info i {
+  color: var(--gold);
+}
+.convidados__mais-info:hover {
+  color: var(--gold);
+}
+
 .para-quem {
   display: flex;
   flex-direction: column;
