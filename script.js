@@ -18,9 +18,13 @@ const botaoConvidadoLeland = document.querySelector(
 const botaoConvidadoMaria = document.querySelector(
   ".convidados__mais-info--maria"
 );
+const botaoConvidadoFabiana = document.querySelector(
+  ".convidados__mais-info--fabiana"
+);
 const cvRoberio = document.querySelector(".convidados__cv-roberio");
 const cvLeland = document.querySelector(".convidados__cv-leland");
 const cvMaria = document.querySelector(".convidados__cv-maria");
+const cvFabiana = document.querySelector(".convidados__cv-fabiana");
 
 botaoLote.addEventListener("click", mostrarFormInscricaoLote);
 botaoEstudante.addEventListener("click", mostrarFormInscricaoEstudante);
@@ -30,6 +34,7 @@ botaoMailchimp.addEventListener("click", mostrarLinkPagamento);
 botaoConvidadoRob.addEventListener("click", maisInformacoes);
 botaoConvidadoLeland.addEventListener("click", maisInformacoesLeland);
 botaoConvidadoMaria.addEventListener("click", maisInformacoesMaria);
+botaoConvidadoFabiana.addEventListener("click", maisInformacoesFabiana);
 
 function mostrarFormInscricaoLote() {
   divLote.style.display = "none";
@@ -65,4 +70,10 @@ function maisInformacoesMaria() {
   cvMaria.style.display === "block"
     ? (cvMaria.style.display = "none")
     : (cvMaria.style.display = "block");
+}
+
+function maisInformacoesFabiana() {
+  cvFabiana.style.display === "block"
+    ? (cvFabiana.style.display = "none")
+    : (cvFabiana.style.display = "block");
 }
